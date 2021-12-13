@@ -12,3 +12,4 @@ git checkout <version> <archivo> trae la vesrion indicada, si en <version> se l 
 git reset <archivo> <versión> restaura el archivo a la version que indicaste, tiene 2 variantes --hard y --soft
   --hard: elimina lo que esta en la ram
   --soft: no elimina lo de la ram
+git merge <rama> SIEMPRE se ejecuta desde la rama que queres que sea la final (generalmente master) y pones el nombre del arama que queres traer
