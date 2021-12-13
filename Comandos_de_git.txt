@@ -1,8 +1,10 @@
-git add Añade el Archivo a la preparación 
-git commit Añade el archivo al repositorio
+git add <archivo> Añade el Archivo a la preparación 
+git commit <archivo> Añade el archivo al repositorio
 git clone *url* 
 git push lo que hace es mandar el archivo del repositorio local al remoto
 git fetch repositorio remoto al local
 git merge repositorio local al directorio del trabajo
-git pull gitfetch y merge a la ves
-git log Muestra el repositorio de un archivo, si se usa . muesrtra todos los archivos
+git pull  gitfetch y merge a la ves
+git log <archivo> Muestra el repositorio de un archivo, si se usa . muesrtra todos los archivos
+git show <archivo> Muestra los cambios de las versiones de los archivos
+git diff version1 version2 Muestra los cambios entre distintas versiones
