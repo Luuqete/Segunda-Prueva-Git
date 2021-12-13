@@ -5,3 +5,4 @@ git push lo que hace es mandar el archivo del repositorio local al remoto
 git fetch repositorio remoto al local
 git merge repositorio local al directorio del trabajo
 git pull gitfetch y merge a la ves
+git log Muestra el repositorio de un archivo, si se usa . muesrtra todos los archivos
