@@ -13,3 +13,4 @@ git reset <archivo> <versión> restaura el archivo a la version que indicaste, t
   --hard: elimina lo que esta en la ram
   --soft: no elimina lo de la ram
 git branch <nombre> crea una rama
+git 
