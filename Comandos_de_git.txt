@@ -14,4 +14,4 @@ git reset <archivo> <versión> restaura el archivo a la version que indicaste, t
   --soft: no elimina lo de la ram
 git branch <nombre> crea una rama
 git merge <rama> SIEMPRE se ejecuta desde la rama que queres que sea la final (generalmente master) y pones el nombre del arama que queres traer
->>>>>>> cambiosHtml
+
