@@ -1,6 +1,6 @@
 git add <archivo> Añade el Archivo a la preparación 
 git commit <archivo> Añade el archivo al repositorio
-git clone *url* 
+git clone <url> lo que hace es clonar el repositorio de la url 
 git push lo que hace es mandar el archivo del repositorio local al remoto
 git fetch repositorio remoto al local
 git merge repositorio local al directorio del trabajo
