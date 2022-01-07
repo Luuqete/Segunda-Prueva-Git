@@ -1,2 +1,3 @@
 alias nombre = "Comando"//Lo que hace es crear uns variable con un comando
 ls// enlista los archivos que hay en la carpeta actual
+vim <archivo> //te permite editar el archivo desde la consola
