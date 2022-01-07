@@ -17,5 +17,7 @@ git merge <rama> SIEMPRE se ejecuta desde la rama que queres que sea la final (g
 git log --all --graph --decorate --oneline Muestra el arbol del proyecto
 git tag -a <nombre de la version> -m<Mensaje de la etiqueta> <Commit en donde va la etiqueta> Agrega una etiqueta 
 git push origin --tags envia a github las etiquetas
+git show-branch --all Muestra la historia de las ramas 
+gitk te muestra los commits y cambios de manera mas visual
 
 
