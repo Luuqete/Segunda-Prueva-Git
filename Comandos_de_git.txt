@@ -14,4 +14,6 @@ git reset <archivo> <versión> restaura el archivo a la version que indicaste, t
   --soft: no elimina lo de la ram
 git branch <nombre> crea una rama
 git merge <rama> SIEMPRE se ejecuta desde la rama que queres que sea la final (generalmente master) y pones el nombre del arama que queres traer
-git log --all --graph --decorate --oneline
+git log --all --graph --decorate --oneline Muestra el arbol del proyecto
+git tag -a <nombre de la version> -m<Mensaje de la etiqueta> <Commit en donde va la etiqueta> Agrega una etiqueta 
+
