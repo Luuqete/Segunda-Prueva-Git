@@ -19,5 +19,7 @@ git tag -a <nombre de la version> -m<Mensaje de la etiqueta> <Commit en donde va
 git push origin --tags envia a github las etiquetas
 git show-branch --all Muestra la historia de las ramas 
 gitk te muestra los commits y cambios de manera mas visual
-
+git rebase <Nombre de la rama actua> <Nombre de la rama a ficionar> es un merge solo que elimina la rama que fucionaste
+git stash te retiene los cambios enviandote al ultimo commit, si pones -pop te los debuelve si le das list te mustra si hay algo y si le das drop se elimina
+git stash branch <Nombre de la rama a crear> te crea una rama con los cambios
 
