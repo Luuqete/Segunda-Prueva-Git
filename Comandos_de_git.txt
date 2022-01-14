@@ -23,3 +23,5 @@ git rebase <Nombre de la rama actua> <Nombre de la rama a ficionar> es un merge 
 git stash te retiene los cambios enviandote al ultimo commit, si pones -pop te los debuelve si le das list te mustra si hay algo y si le das drop se elimina
 git stash branch <Nombre de la rama a crear> te crea una rama con los cambios
 git clean borra archivos inesesarios, si das --dry-run, te muestra los que eliminará, en cambio si le das -f te los elimina
+git cherry-pick <Commit> te trae ese commit ignorando los otros
+git commit --amend agrega los cambios al ultimo commit sin crear uno nuevo

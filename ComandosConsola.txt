@@ -1,3 +1,7 @@
 alias nombre = "Comando"//Lo que hace es crear uns variable con un comando
 ls// enlista los archivos que hay en la carpeta actual
 vim <archivo> //te permite editar el archivo desde la consola
+comandos vim: 
+  esc. + shift + z + z //Guardar
+  esc + i // editar el texto del archivo
+si le das vim y el nombre de un archivo que no existe te lo crea y lo guarda
