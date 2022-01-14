@@ -25,3 +25,11 @@ git stash branch <Nombre de la rama a crear> te crea una rama con los cambios
 git clean borra archivos inesesarios, si das --dry-run, te muestra los que eliminará, en cambio si le das -f te los elimina
 git cherry-pick <Commit> te trae ese commit ignorando los otros
 git commit --amend agrega los cambios al ultimo commit sin crear uno nuevo
+git reflog comando muho mas poderoso que git log el cual te mustra TODO incluso lo que eliminaste
+git grep <palabra> te marca la cantidad de veces que esta esa palabra en el codigo, si le das -n antes de la palabra te muestra la linea
+git log -S <palabra> te busca esa palabra en los commits
+git shortlog -sn te muestra la cantidad de commits por persona si le agregas --no-merge, te muestra todo menos los merge
+git config --global alias.<Nombre del alias> "lo que va a decir el alias"
+git blame -c <Archivo> te mustra quien modifico cada linea del archivo por ultima ves si das -Lnumero desde, numero hasta
+git branch -r te muestra las ramas remotas, y con -a te muestra las locales y lasremotas
+
