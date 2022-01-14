@@ -1,1 +1,3 @@
-git push origin master: envia archivos al remoto
+git push Nombre del remoto(Suele ser origin) <Rama>: envia archivos al remoto a esa rama en espesifico
+git pull Nombre del remoto(Suele ser origin) <Rama>:Trae los cambios del remoto en esa rama que se espesifica
+git push Nombre del remoto --tags envia las etiquetas al remoto
